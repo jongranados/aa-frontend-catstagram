@@ -1,0 +1,76 @@
+
+
+.container { 
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: helvetica;
+}
+
+h1 { 
+    font-size: 6em;
+    margin: 10px 50px 25px; 
+}
+
+#fetched-picture { 
+    height: 50vh;
+}
+
+button#new-cat-btn {
+    margin: 2em 0 0;
+    padding: .5em 3em;
+}
+
+#popularity { 
+    padding: 5px; 
+    margin: 10px 0 0; 
+}
+
+button { 
+    padding: .25em 1.5em;
+    border-radius: .25em;
+    border: .1em solid black; 
+    font-family: inherit;
+}
+
+#buttons > * {
+    margin: 0 .75em 10px; 
+}
+
+div#comment-section{
+    display: flex; 
+    flex-direction: row;
+}
+
+div#comment-section > * { 
+        margin: 1px;
+}
+
+button#submit { 
+    flex-grow: 1;
+}
+
+label#textarea-label { 
+    align-self: center;
+    margin: .5em;
+}
+
+#comments { 
+    /* display: inline-block; */
+    font-size: 1.25em;
+    padding: 1em 1em 1em 5em; 
+    padding-left: 100px;
+    width: 50%; 
+    border: 1px solid rgb(148, 148, 148); 
+    border-radius: .25em;
+    line-height: 2em;
+    list-style: none;
+    /* align-self: flex-start;
+    position: relative;
+    left: 5em; */
+}
+ul li:before {
+    content: "• ";
+    font-size: 10pt;
+}
